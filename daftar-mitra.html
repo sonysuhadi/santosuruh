@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daftar Mitra - Santo Suruh</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container login-form">
+    <h2>Form Pendaftaran Mitra</h2>
+    <form action="dashboard.html" method="GET">
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" id="nama" name="nama" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="nohp">No. HP</label>
+      <input type="text" id="nohp" name="nohp" required />
+
+      <label for="layanan">Jenis Layanan</label>
+      <select id="layanan" name="layanan" required>
+        <option value="">--Pilih Layanan--</option>
+        <option value="bersih">Bersih-bersih</option>
+        <option value="hewan">Rawat Hewan</option>
+      </select>
+
+      <button type="submit" class="cta-button">Daftar</button>
+    </form>
+  </div>
+</body>
+</html>
